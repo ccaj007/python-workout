@@ -8,3 +8,6 @@ The returned sequence will be of the same type as the argument.
 Its two elements will be the argument's first and last elements.
 """
     return sequence[:1] + sequence[-1:]
+
+print(firstlast('abc'))
+print(firstlast([1,2,3,4]))
